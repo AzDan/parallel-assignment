@@ -11,3 +11,19 @@ In the second terminal, run the following command
 3. Make sure you are in the client directory now as such `<path to project folder>/client`
 
 4. Run the following command `npm run dev` 
+
+# Folder Structure
+```
+|- project-folder
+|  |- api
+|     |- jsonGenerateScript.js
+|     |- index.js
+|     |- package.json
+|  |- client
+|     | - src
+|         | - App.js
+|         | - index.js
+|         | - App.css
+|     | - package.json
+|- README.md
+```
