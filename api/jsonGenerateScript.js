@@ -6,7 +6,7 @@ function randomDate(start, end) {
 }
 
 //DECLARATION
-let jsonArray = {data:[]};
+let jsonArray = [];
 let characters = 'ABCDEFGHIJ';
 let charactersLength = characters.length;
 
@@ -17,7 +17,7 @@ for(var i = 0; i<1000; i++) {
     userID: Math.floor((Math.random() * 100) + 1),
     pageTitle: characters.charAt(Math.floor(Math.random() * charactersLength)) 
   }
-  jsonArray.data.push(obj);
+  jsonArray.push(obj);
 }
 
 var jsonContent = JSON.stringify(jsonArray);
