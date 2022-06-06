@@ -36,7 +36,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='container'>
+      <div className='container' data-testid="container">
         {this.state.hasData &&
           <>
             <div style={{width: "600px", height: "400px"}}>
