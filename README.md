@@ -1,4 +1,4 @@
-#Prerequisites
+# Prerequisites
 
 1. This project assumes you have Node and npm installed on your system and set up correctly. 
 
