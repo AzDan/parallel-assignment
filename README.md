@@ -34,4 +34,4 @@ In the second terminal, run the following command
 
 # Result
 If all the steps have been executed successfully, the following tab should open in your default browser.
-<img src="/parallel-assignment.png" width="600px" height="400px">
+<img src="/parallel-assignment.png" width="800px" height="400px">
