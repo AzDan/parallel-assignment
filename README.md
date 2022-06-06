@@ -27,3 +27,7 @@ In the second terminal, run the following command
 |     | - package.json
 |- README.md
 ```
+
+# Result
+If all the steps have been executed successfully, the following tab should open in your default browser.
+<img src="/parallel-assignment.png" width="600px" height="400px">

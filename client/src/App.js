@@ -36,7 +36,7 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <div className='container'>
         {this.state.hasData &&
           <>
             <div style={{width: "600px", height: "400px"}}>
@@ -48,7 +48,7 @@ class App extends Component {
             </div>
           </>
         }
-      </>
+      </div>
     )
   }
 }
