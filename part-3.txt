@@ -3,8 +3,10 @@ Q. How this generated dataset will differ from real data?
 Ans. This generated data will differ from real data in the following ways:
 
 - Real world data will have a lot more user tracking metrics
-- It is possible that not all data points may be captured in real world, so we will have some missing data.
-  Not all data might be present. Some values could be null or empty
+- UserID in the real world is rarely a number. It must support a unique alphanumeric key generation for security.
+- Not all data points may be captured in real world, so we will have some missing data.
+  For instance, some values could be null or empty
+- If data is generated using different timezones, it may lead to inconsistent results.
 - Real world data may be prone to errors and duplicacy
 
 Q. Why specific visualisation library
@@ -14,4 +16,6 @@ Ans. Chosen chart.js as the visualisation library due to the following reasons:
 - Easy to use. Quick learning curve. Configurable. Responsive
 - Readily available documentation
 - It generates charts on a canvas HTML element, which is performant
+- It supports animation and facilitates transitions of every property in every element that can be 
+  configured individually and independently.
 - Open source

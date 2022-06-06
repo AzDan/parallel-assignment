@@ -40,11 +40,51 @@ class App extends Component {
         {this.state.hasData &&
           <>
             <div style={{width: "600px", height: "400px"}}>
-              <Bar data={this.state.pageVisitData}/>
+              <Bar 
+                data={this.state.pageVisitData}
+                options={{
+                  scales: {
+                    y: {
+                      title: {
+                        display: true,
+                        text: 'No. of visits',
+                        color: '#000'
+                      }
+                    },
+                    x: {
+                      title: {
+                        display: true,
+                        text: 'Pages',
+                        color: '#000'
+                      }
+                    }
+                  }     
+                }}
+              />
             </div>
             
             <div style={{width: "600px", height: "400px"}}>
-              <Bar data={this.state.timeVisitData}/>
+              <Bar 
+                data={this.state.timeVisitData}
+                options={{
+                  scales: {
+                    y: {
+                      title: {
+                        display: true,
+                        text: 'No. of visits',
+                        color: '#000'
+                      }
+                    },
+                    x: {
+                      title: {
+                        display: true,
+                        text: 'Time Periods',
+                        color: '#000'
+                      }
+                    }
+                  }     
+                }}
+                />
             </div>
           </>
         }
