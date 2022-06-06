@@ -1,3 +1,7 @@
+#Prerequisites
+
+1. This project assumes you have Node and npm installed on your system and set up correctly. 
+
 # Getting started
 
 1. Clone this repository on your system. Either by downloading and extracting the zip file or by using
